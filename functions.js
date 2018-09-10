@@ -15,3 +15,9 @@ function fun_consoleLog(){
     console.log(e)
 }
 
+function fun_sumOfVariables(){
+    var sum = 10+20;
+
+    document.getElementById('variable_declaration').innerHTML="Sum = " +sum +".";
+}
+
