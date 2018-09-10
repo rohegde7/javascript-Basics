@@ -1,10 +1,13 @@
 <html>
    <body>
 
+        <script src="functions.js"></script>
+        
         <p id="para1">Hello</p>
 
         <button type="button" onclick='document.getElementById("para1").innerHTML="Button clicked"'>Click to change Text</button>
         <br>
+        <hr>
 
         <! Adding 2 buttons for switching ON and OFF a bulb >
         <button type="button" onclick="document.getElementById('bulbImage').src='bulbOnPic.gif'">ON</button>
@@ -12,6 +15,7 @@
 
         <img id="bulbImage" src="bulbOffPic.gif">
         <br>
+        <hr>
     
         <img src="sample.png" id="sampleImage">
         <br>
@@ -19,6 +23,14 @@
         <! Button for disappearing and reappearing of an image >
         <button type="button" onclick="document.getElementById('sampleImage').style.display='none'">Gayaab</button>
         <button type="button" onclick="document.getElementById('sampleImage').style.display='block'">Block/Reapper</button>
-      
+        <br>
+        <hr>
+
+        <p id="variable_declaration">
+            10 + 20 = ?
+        </p>
+        <button type="button" onclick="fun_sumOfVariables()">ADD</button>
+        <br/>
+
    </body>
 </html>
